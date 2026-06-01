@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>이영준 | Lee Young-jun - Profile</title>
+  <meta name="description" content="자운고등학교 3학년 이영준의 자기소개 웹사이트입니다. 체스, 유튜브 시청을 좋아하는 INFJ 학생의 프로필을 확인해보세요.">
+  <meta name="keywords" content="이영준, 자운고등학교, INFJ, 체스, 유튜브, 고등학생, 포트폴리오, 자기소개">
+  <meta name="author" content="이영준">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="이영준 | Lee Young-jun - Profile">
+  <meta property="og:description" content="자운고등학교 3학년 이영준의 자기소개 웹사이트입니다. 체스, 유튜브 시청을 좋아하는 INFJ 학생의 프로필을 확인해보세요.">
+  <meta property="og:type" content="website">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header id="site-header">
+    <div class="container">
+      <nav aria-label="Main Navigation">
+        <a href="#hero" class="logo" id="nav-logo">YOUNGJUN.</a>
+        <ul class="nav-links" id="navigation-list">
+          <li><a href="#about" id="link-about">About</a></li>
+          <li><a href="#hobbies" id="link-hobbies">Hobbies</a></li>
+          <li><a href="#guestbook" id="link-guestbook">Guestbook</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero" aria-label="Hero Section">
+    <div class="hero-glow-1"></div>
+    <div class="hero-glow-2"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-tag" id="hero-tag-text">Welcome to my space</div>
+        <h1 class="hero-title" id="main-greeting">안녕하세요,<br>이영준입니다.</h1>
+        <p class="hero-subtitle" id="hero-subtext">
+          자운고등학교 3학년에 재학 중이며, 깊이 있는 생각과 통찰을 즐기는 INFJ입니다. 
+          전략과 아이디어를 다루는 것을 좋아합니다.
+        </p>
+        <div class="hero-buttons">
+          <a href="#about" class="btn-primary" id="btn-discover">더 알아보기 <i class="fa-solid fa-arrow-down"></i></a>
+        </div>
+      </div>
+      <div class="hero-illustration">
+        <div class="hero-illustration-wrapper" id="blob-illustration">
+          <div class="hero-image-container">
+            <img src="assets/chess_art.png" alt="Chess Art - Glowing King Piece" id="hero-chess-img">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Scroll Down Indicator -->
+    <a href="#about" class="scroll-indicator" id="scroll-hint-link" aria-label="Scroll Down">
+      <span></span>
+      Scroll
+    </a>
+  </section>
+
+  <!-- About / MBTI Section -->
+  <section class="about reveal" id="about" aria-label="About Me">
+    <div class="container">
+      <h2 class="section-title glow-text" id="about-title">About Me</h2>
+      
+      <div class="about-grid">
+        <!-- Profile Card -->
+        <div class="glass-card" id="profile-card">
+          <h3 class="info-header" id="profile-header"><i class="fa-solid fa-user-graduate"></i> 프로필</h3>
+          <ul class="info-list" id="profile-details">
+            <li class="info-item">
+              <span class="info-label">이름</span>
+              <span class="info-value">이영준 (Lee Young-jun)</span>
+            </li>
+            <li class="info-item">
+              <span class="info-label">소속</span>
+              <span class="info-value">자운고등학교 3학년 (재학 중)</span>
+            </li>
+            <li class="info-item">
+              <span class="info-label">성별</span>
+              <span class="info-value">남성 (Male)</span>
+            </li>
+            <li class="info-item">
+              <span class="info-label">취미</span>
+              <span class="info-value">체스, 유튜브 시청</span>
+            </li>
+            <li class="info-item">
+              <span class="info-label">성격 유형</span>
+              <span class="info-value">INFJ (예언자형 / 옹호자)</span>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- MBTI Glass Card with Flip Effect -->
+        <div class="mbti-container" id="mbti-container-wrapper">
+          <div class="mbti-card-wrapper" id="mbti-flip-card" aria-label="INFJ MBTI Details, Hover to Flip">
+            <div class="mbti-card-inner">
+              <!-- Front Side -->
+              <div class="mbti-front">
+                <i class="fa-solid fa-sparkles" style="font-size: 2rem; margin-bottom: 1rem;"></i>
+                <h3>INFJ</h3>
+                <p>선의의 옹호자 (Advocate)</p>
+                <div class="mbti-hint">마우스를 올려 뒷면의 성향을 확인해보세요</div>
+              </div>
+              <!-- Back Side -->
+              <div class="mbti-back">
+                <h4 id="mbti-back-header">INFJ의 특징</h4>
+                <div class="mbti-traits" id="mbti-traits-list">
+                  <div class="mbti-trait">
+                    <span class="mbti-trait-bullet"></span>
+                    <span class="mbti-trait-text"><strong>통찰력:</strong> 상황의 이면과 사람의 감정을 잘 파악합니다.</span>
+                  </div>
+                  <div class="mbti-trait">
+                    <span class="mbti-trait-bullet"></span>
+                    <span class="mbti-trait-text"><strong>계획성:</strong> 생각에 그치지 않고 구체적인 목표와 계획을 수립합니다.</span>
+                  </div>
+                  <div class="mbti-trait">
+                    <span class="mbti-trait-bullet"></span>
+                    <span class="mbti-trait-text"><strong>이상주의:</strong> 더 나은 세상을 만들고자 하는 긍정적인 가치관을 가집니다.</span>
+                  </div>
+                  <div class="mbti-trait">
+                    <span class="mbti-trait-bullet"></span>
+                    <span class="mbti-trait-text"><strong>깊은 관심사:</strong> 가벼운 대화보다 깊고 본질적인 대화를 선호합니다.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobbies Section -->
+  <section class="hobbies reveal" id="hobbies" aria-label="Hobbies">
+    <div class="container">
+      <h2 class="section-title glow-text" id="hobbies-title">My Hobbies</h2>
+      
+      <div class="hobby-grid">
+        <!-- Chess Interactive Card -->
+        <div class="glass-card" id="chess-card">
+          <h3 class="hobby-card-title" id="chess-title"><i class="fa-solid fa-chess-knight" style="color: var(--accent-cyan);"></i> Chess (체스)</h3>
+          <p style="margin-bottom: 2rem; color: var(--text-secondary);">
+            체스는 저에게 단순한 게임을 넘어 전략적 사고와 고도의 집중력을 키워주는 취미입니다. 
+            아래 미니 체스 보드에서 룩(Rook)을 움직여 킹(King)을 잡아보세요! (한 수 메이트 퍼즐)
+          </p>
+          
+          <div class="chess-interactive" id="chess-interactive-game">
+            <div class="chess-board-wrapper">
+              <div class="chess-board" id="chess-puzzle-board" role="grid" aria-label="Chess mini-puzzle board">
+                <!-- 4x4 Grid (Created dynamically or filled via script) -->
+              </div>
+            </div>
+            <div class="chess-status" id="chess-puzzle-status">룩(♖)을 선택한 뒤 올바른 칸으로 이동하세요!</div>
+          </div>
+        </div>
+        
+        <!-- YouTube watching Card -->
+        <div class="glass-card" id="youtube-card">
+          <h3 class="hobby-card-title" id="youtube-title"><i class="fa-brands fa-youtube" style="color: var(--accent-red);"></i> YouTube (유튜브 시청)</h3>
+          <p style="margin-bottom: 2rem; color: var(--text-secondary);">
+            다양한 유튜버의 분석 영상이나 흥미로운 학습 콘텐츠, 음악 및 체스 관련 콘텐츠를 시청하며 넓은 시야를 배우고 힐링합니다. 주로 관심있게 보는 분야입니다:
+          </p>
+          
+          <div class="yt-dashboard" id="yt-dashboard-categories">
+            <!-- Category 1 -->
+            <div class="yt-channel-card" id="yt-cat-chess">
+              <div class="yt-icon"><i class="fa-solid fa-chess"></i></div>
+              <div class="yt-info">
+                <div class="yt-name">체스 오프닝 & 분석</div>
+                <div class="yt-desc">다양한 그랜드마스터들의 기보 분석 및 전술 팁을 공유하는 채널들</div>
+              </div>
+            </div>
+            <!-- Category 2 -->
+            <div class="yt-channel-card" id="yt-cat-edu">
+              <div class="yt-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <div class="yt-info">
+                <div class="yt-name">과학 / 인문학 지식</div>
+                <div class="yt-desc">우주의 신비, 심리학, 혹은 흥미로운 세상의 비하인드 스토리를 담은 지식 콘텐츠</div>
+              </div>
+            </div>
+            <!-- Category 3 -->
+            <div class="yt-channel-card" id="yt-cat-music">
+              <div class="yt-icon"><i class="fa-solid fa-music"></i></div>
+              <div class="yt-info">
+                <div class="yt-name">로파이 & 집중용 플레이리스트</div>
+                <div class="yt-desc">공부하거나 집중하여 생각할 때 듣기 좋은 차분하고 감성적인 음악 채널</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Guestbook Section -->
+  <section class="guestbook reveal" id="guestbook" aria-label="Guestbook">
+    <div class="container">
+      <h2 class="section-title glow-text" id="guestbook-title">Guestbook</h2>
+      
+      <div class="guestbook-wrapper glass-card" id="guestbook-card">
+        <p style="text-align: center; margin-bottom: 2.5rem; color: var(--text-secondary);">
+          이영준의 웹사이트에 오신 것을 환영합니다! 방명록에 따뜻한 응원의 한 마디를 남겨주세요.
+        </p>
+        
+        <form class="guestbook-form" id="gb-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="gb-name">이름 / 닉네임</label>
+              <input type="text" id="gb-name" class="form-control" placeholder="이름을 입력하세요" required>
+            </div>
+            <div class="form-group">
+              <label for="gb-relation">관계</label>
+              <input type="text" id="gb-relation" class="form-control" placeholder="예: 친구, 선생님, 방문객">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="gb-message">메시지</label>
+            <textarea id="gb-message" class="form-control" placeholder="전하고 싶은 메시지를 입력해 주세요" required></textarea>
+          </div>
+          <div style="text-align: right;">
+            <button type="submit" class="btn-primary" id="btn-submit-message">
+              남기기 <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+        </form>
+        
+        <hr style="border: 0; height: 1px; background: rgba(255,255,255,0.08); margin: 2.5rem 0;">
+        
+        <div class="guestbook-list" id="gb-messages-list">
+          <!-- Messages will be injected here by app.js -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="site-footer">
+    <div class="container">
+      <p>&copy; 2026 이영준. All Rights Reserved.</p>
+      <p>Designed with <span class="footer-accent"><i class="fa-solid fa-heart"></i> INFJ</span> energy</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
